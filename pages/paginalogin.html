@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de login</title>
+    <link rel="stylesheet" href="../styles/paginalogin.css">
+</head>
+<body>
+    <body>
+        <div id="pagina">
+            <!--esses header é o nome para cabeçaho-->
+            <header>
+                <!--div logo para imagens e logos-->
+                <div id="logo">
+                    <img src="../imagens/logo.png" alt="">
+                </div>
+                <!--parte de navegação do usuário-->
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="#">Tipos de flores </a> 
+                    <a href="#">Arranjos</a> 
+                    <a href="#">Buquês</a> 
+                    <a href="pages/paginalogin.html">Login</a> 
+                </nav>
+            </header>
+
+            <main>
+                <div id="banner">
+                    <div id="efeito"></div>
+                </div>
+                <div id="formulario">
+                    <h2>Login do cliente</h2>
+                    <form action="#" method="post">
+    
+                        <label for="email">Digite seu e-mail</label>
+                        <input type="email" id="email" name="usuario_email" placeholder="Endereço de e-mail">
+    
+                        <label for="senha">Digite sua senha</label>
+                        <input type="password" id="senha" name="usuario_senha" placeholder="Digite aqui sua senha!">
+    
+                       
+                    
+                        <button type="submit">Continuar</button>
+                        <!--parte da atividade da aula 10-->
+                        <label for="esquecisenha"> Esqueci minha senha</label>
+                        <input type="text" id="esquecisenha" placeholder="Digite seu email aqui">
+                        <button type="submit">Redefinir senha</button>
+                        
+                        <fieldset> <!--para deixar tudo dentro de um bloquinho só-->
+                            <legend> Ainda não tem cadastro conosco?</legend>                         
+                            <button type="submit">Clique aqui</button>
+                        </fieldset>
+
+
+                    
+                    </form>
+                </div>
+            </main>
+        </div>
+
+        <footer>
+            <p>Todos os direitos reservados a Floricultura </p> 
+        </footer>
+</body>
+</html>
