@@ -57,9 +57,11 @@ main{
 
     margin: 400px;
     height: 130px;
+
    
     
 }
+
 
 h2{
     margin: 20px 60px;
@@ -68,16 +70,21 @@ h2{
     text-align: center;
 }
 
+#pagina{
+    margin: auto;
+    height: auto;
+}
+
 fieldset{
     border: 3px solid #f48498;
 }
 
 form {
-    /* Apenas para centralizar o form na página */
+    
     margin: 0 auto;
     width: 400px;
-    /* Para ver as bordas do formulário */
-    padding: 1em;
+    
+    padding: 80px;
     border: 1px solid #f5a08d;
     background-color: #f2ccc3;
     border-radius: 1em;

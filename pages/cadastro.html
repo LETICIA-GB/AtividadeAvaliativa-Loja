@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <link rel="stylesheet" href="../styles/cadastro.css">
+</head>
+
+    <body>
+        <h1>FORMULÁRIO</h1>
+        <h3>Cadastro</h3> 
+       
+        <form action="cadastrar.php" method="post"> 
+            
+            <label for="nome">Nome*</label><br>
+            <input type="text" id="nome" required placeholder="escreva seu usuário"> 
+            
+            
+            
+            <!--EMAIL- PARA VALIDAR EMAIL DE FORMA SIMPLES-->
+            <label for="email">Digite e-mail</label>
+            <input type="email" id="email" placeholder="Digite seu email!">
+
+            <label for="senha"> Defina uma senha*</label>
+            <input type="password" id="senha" disabled placeholder="Defina uma senha!"> 
+            
+            
+            
+        
+            <label for="datadenascimento"> Coloque sua data de Nascimento</label>
+            <input type="date" name="" id="datadenascimento"> 
+    
+
+    
+    
+            
+            <label for="mandaemail"> Deseja receber notificações</label>
+            <input type="checkbox" id="mandaemail"> 
+           
+            <fieldset> 
+               <legend>QUAL É O SEU SEXO</legend> 
+            <label for="sexo"> Qual seu sexo?</label>
+            Homem<input type="radio" name="sexo" value="Homem">
+            Mulher<input type="radio" name="sexo" value="Mulher">
+            Não dizer<input type="radio" name="sexo" value="naodizer" >
+            </fieldset>
+    
+           
+          
+    
+            <button type="submit">CADASTRAR</button> <!--Para colocar o botão ao fim de digitar na caixa-->
+            <button type="reset">REFAZER FORMULÁRIO</button>
+            
+    
+        </form>
+    
+    </body>
+
+</html>
