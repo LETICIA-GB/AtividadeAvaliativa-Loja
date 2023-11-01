@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Floricultura</title>
+    <link rel="stylesheet" href="styleflori/geralflori.css">
+    <link rel="stylesheet" href="styleflori/@media.css" media="screen and (max-width: 768px )"> <!--em vez de config o @media dentro do css, abre um novo arquivo do css e linka por aqui/ PARA CONFIG DE MONITORES-->
+    <link rel="stylesheet" href="styleflori/landscapeflori.css" media="screen and (orientation : landscape)"> <!--landscape é o modo paisagem, deitado/ PARA MOBILE-->
+    <link rel="stylesheet" href="styleflori/portraitflori.css" media="screen and (orientation : portrait)">  <!--portrait é o modo retrato, em pé/ PARA MOBILE-->  
+    
+
+</head>
+<body>
+    <div id="pagina">
+        <header>
+            <div id="logo">
+                <img src="../ATIVIDADE/imagensflori/logo.png" alt="">
+            </div>
+
+            <nav id="opcoespc">
+                <ul>
+                    <li> <a href="#"> Home</a></li> 
+                    <li> <a href="#">Tipos de flores</a></li>
+                    <li> <a href="#">Arranjos</a></li>
+                    <li> <a href="#">Buquês</a></li>
+                    
+                </ul>
+            </nav>
+            <!--mobile/ adicionei aqui o icone svgq vai aparecer qdo estiver no mobile-->
+            <div id="menumobile" onclick="abriropcoes()"> <!--para chamar o bloco de codigo q fizemos no javascript-->
+                <img src="imagensflori/menuIcon.svg" alt="">
+            </div>
+        </header>
+            <!--menu do mobile inicio-->
+            <nav id="opcoesmobile">
+                <ul>
+                    <li> <a href="#"> Home</a></li> 
+                    <li> <a href="#">Tipos de flores</a></li>
+                    <li> <a href="#">Arranjos</a></li>
+                    <li> <a href="#">Buquês</a></li>
+                   
+                </ul>
+
+            </nav>
+            <!--menu do mobile fim-->
+        <main>
+            <div id="formulario">
+                
+                <form action="" method="post">
+                    <h2>Login do cliente</h2>
+
+                    <label for="email">Digite seu e-mail</label>
+                    <input type="email" id="email" name="usuario_email" placeholder="Seu e-mail">
+
+                    <label for="senha">Digite sua senha</label>
+                    <input type="password" id="senha" name="usuario_senha" placeholder="Sua senha">
+
+                   
+                
+                    <button type="submit">Continuar</button>
+                    <!--parte da atividade da aula 10-->
+                    <label for="esquecisenha"></label>
+                                        
+                    <button type="submit">Esqueci minha senha</button>
+                    
+                    <fieldset> <!--para deixar tudo dentro de um bloquinho só-->
+                        <legend> Ainda não tem cadastro conosco?</legend>                         
+                        <button type="submit">Clique aqui</button>
+                    </fieldset>
+
+
+                
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>Todos os direitos reservados a Floricultura </p> 
+        </footer>
+    </div>
+    
+    <script>
+        function abriropcoes(){
+            if (opcoesmobile.style.display == "none"){
+                opcoesmobile.style.display = "flex"
+            } else{
+                opcoesmobile.style.display = "none"
+            }
+        }
+        
+    </script>
+</body>
+</html>
