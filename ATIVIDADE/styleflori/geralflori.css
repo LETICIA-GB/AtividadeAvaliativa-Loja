@@ -40,11 +40,11 @@ nav, ul{
     display: flex;
     align-items: center;
     gap: 20px;
-    list-style: none; /*para tirar as bolinha da frente do nome das paginas de navegação*/
+    list-style: none; 
 }
 a{
     text-decoration: none;
-    color: black;
+    color: green;
     font-size: 16pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -54,13 +54,13 @@ main img{
     
 }
 
-#menumobile{ /*para esconder o svg da versão do site, o intuito é q ele apareça somente na versão mobile*/
+#menumobile{ 
     display: none;
 }
 
 
 
-@media print{  /*esse é para a pagina ficar arrumada para impressão*/
+@media print{  
     main{
         color: blueviolet;
     }
@@ -76,22 +76,22 @@ main img{
     flex-direction: column;
 }
 
-#opcoesmobile ul{ /*responsalvel pela lista deste menu*/
+#opcoesmobile ul{ 
     width: 80%;
     flex-direction: column;
 }
 
-#opcoesmobile ul li{ /*estilização do menu q esta dentro da lista*/
+#opcoesmobile ul li{ 
     width: 100%;
     height: 40px;
     transition: 1s;
-    display: flex; /*aparecer ou não depende do se senão(if else)do codigo de javascrispt*/
+    display: flex; 
     justify-content: center;
     align-items: center;
 
 }
 
-#opcoesmobile ul li:hover{ /*estilização ao passar o mouse nas opções do menu da lista*/
+#opcoesmobile ul li:hover{ 
     background-color: rgb(88, 66, 66);
     border-radius: 10%;
     transition: 1s;
@@ -119,7 +119,7 @@ form {
   }
 
   label {
-    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    
     display: flex;
     width: auto;
     text-align: center;

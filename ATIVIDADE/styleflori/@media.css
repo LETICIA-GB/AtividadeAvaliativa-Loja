@@ -1,9 +1,3 @@
-/*#pagina{
-    background-color: rgb(255, 0, 234);
-}*/
-
-
-/*o nav e o menumobile abaixos: eles escondem as opções de navegação para elas entrarem no icone svg para qdo estiver na versão mobile*/
 nav{
     display: none;
 }
