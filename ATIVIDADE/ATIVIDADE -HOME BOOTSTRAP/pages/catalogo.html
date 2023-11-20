@@ -14,15 +14,15 @@
    
         <div id="root" class="container-fluid p-0 m-0">
             <header>
-                <!--no site:esse navbar foi pego na opção nav-->
-                <nav class="navbar navbar-expand-lg"> <!--retirei a última opção para integrar com a cor azul-->
+                
+                <nav class="navbar navbar-expand-lg"> 
                     <div class="container-fluid">
-                      <a class="navbar-brand" href="#"> <img style="width: 5rem;" src="../imagenshome/logo.png" alt=""></a> <!--tirei o nav e coloquei a imagem do logo/ depois eu retirei para ela poder mudar de cor no navbar-brand-->
+                      <a class="navbar-brand" href="#"> <img style="width: 5rem;" src="../imagenshome/logo.png" alt=""></a> 
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
                       <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarNav">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <!--para arrumar omde ficara o botão tema claro escuro-->
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
                           
                           
                           <li class="nav-item">
@@ -50,19 +50,19 @@
             </section>
     
                 <section id="catalogosection" class="container-fluid  text-center mx-0 my-2 p-0">
-                    <h3 class="my-4" style="color: var(--rosa);" >CATÁLOGO DE PRODUTOS</h3><!--my-4 paraespaço entre o texto e o catalogo -->
-                    <div id="produtogrupo" class="d-flex justify-content-center gap-2 flex-wrap container-fluid  my-2 p-0"> <!--o flex-wrap esta fazendo a responsividade dos quadradinhosde produtos-->
-                    <!--pegar no site em cards a opção About-->
+                    <h3 class="my-4" style="color: var(--rosa);" >CATÁLOGO DE PRODUTOS</h3>
+                    <div id="produtogrupo" class="d-flex justify-content-center gap-2 flex-wrap container-fluid  my-2 p-0"> 
+                    
                     <!--FLOR-->
                         
-                            <div class="card" style="width: 25rem;"> <!--23 rem : tamanho do card-->
+                            <div class="card" style="width: 25rem;"> 
                                 <img src="../imagenshome/imgcatalogo/florcatalogo 1.jpg" class="card-img-top" alt="flor">
                                 <div class="card-body">
                                   <h3 class="card-title" style="color: var(--rosa);" >FLORES</h3>
                                   <p class="card-text">Além de serem ótimos itens decorativos, as flores podem melhorar as vibrações do nosso corpo e auxiliar no estado físico-emocional. Elas e as plantas purificam o ar, ou seja, elas têm a capacidade de melhorar a qualidade do ar que você respira.</p>
                                   <h4 style="color: var(--verde);" >R$10,00 a unidade</h4>
-                                  <!--retirei o estilo de botao q tinha e colei um do site- modal- opçãolive demo-->
-                                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#florModal"> <!--troca esse final para identificar q é dacoleira-->
+                                  
+                                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#florModal"> 
                                     COMPRAR
                                   </button>
                                 </div>
@@ -70,14 +70,14 @@
                     
                         <!--BUQUE-->
                         
-                            <div class="card" style="width: 25rem;"> <!--23 rem : tamanho do card-->
+                            <div class="card" style="width: 25rem;"> 
                                 <img src="../imagenshome/imgcatalogo/buquecatalogo 1.jpg" class="card-img-top" alt="Buquê">
                                 <div class="card-body">
                                   <h3 class="card-title" style="color: var(--rosa);" >BUQUÊS</h3>
                                   <p class="card-text">Buquês de flores são encantadores pela beleza das flores, não existe uma pessoa que não se sinta especial ao ser presenteado com um conjunto de flores. Justamente por ser uma lembrança cheia de charme, trata-se de um item que serve para diversas ocasiões, inclusive para uma ocasião surpresa.</p>
                                   <h4 style="color: var(--verde);" >A partir de R$100,00</h4>
-                                  <!--retirei o estilo de botao q tinha e colei um do site- modal- opçãolive demo-->
-                                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buqueModal"> <!--troca esse final para identificar q é dacoleira-->
+                                  
+                                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buqueModal"> 
                                     COMPRAR
                                   </button>
                                 </div>
@@ -85,14 +85,14 @@
                          
                         <!--ARRANJO-->
                         
-                            <div class="card" style="width: 25rem;"> <!--23 rem : tamanho do card-->
+                            <div class="card" style="width: 25rem;"> 
                                 <img src="../imagenshome/imgcatalogo/arranjocatalogo 1.jpg" class="card-img-top" alt="arranjos">
                                 <div class="card-body">
                                   <h3 class="card-title" style="color: var(--rosa);" >ARRANJOS</h3>
                                   <p class="card-text">São muitos motivos para incluir arranjos florais na decoração de casa. Seja para receber os amigos ou, simplesmente, se sentir bem ao chegar em casa, eles fazem toda a diferença na decoração. O arranjo floral deixa a casa mais “viva”, mais bonita e aconchegante, mesmo quando é feito com plantas e flores permanentes.</p>
                                   <h4 style="color: var(--verde);" >A partir de R$50,00</h4>
-                                  <!--retirei o estilo de botao q tinha e colei um do site- modal- opçãolive demo-->
-                                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#arranjoModal"> <!--troca esse final para identificar q é dacoleira-->
+                                  
+                                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#arranjoModal"> 
                                     COMPRAR
                                   </button>
                                 </div>
@@ -114,66 +114,65 @@
 
 
 <!-- Modal (config do botão) fica aqui em baixo pois ele não obedee hierarquia, por conta do tabindex -->
-        <!--COLEIRA MODAL-->
-        <div class="modal fade" id="coleiraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> <!--troquei para coleiramodal para identificar q é da coleira-->
+        <!--flor MODAL-->
+        <div class="modal fade" id="florModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h1 class="modal-title fs-5"  style="color: var(--laranja);" id="exampleModalLabel">COLEIRA</h1>
+                  <h1 class="modal-title fs-5"  style="color: var(--verde);" id="exampleModalLabel">Flores</h1>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  <img class="w-100" src="images/products/productImage.png" alt="">
-                  <h3 style="color: var(--verde);">R$100</h3>
+                  <img class="w-50" src="../imagenshome/imgcatalogo/florcatalogo 1.jpg" alt="">
+                  <h3 style="color: var(--verde);">R$10,00</h3>
                   <label for="Quantidade do produto"></label>
                   <input type="number" name="" id="quantidade">
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                  <button type="button" class="btn btn-success">Adicionar ao carrinho</button> <!--sucess é para o botao ficar verde-->
-                </div>
+                  <button type="button" class="btn btn-success">Adicionar ao carrinho</button> 
               </div>
             </div>
           </div>
             
-          <!--COMIDA MODAL-->
-        <div class="modal fade" id="coleiraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> <!--troquei para coleiramodal para identificar q é da coleira-->
+          <!--buque MODAL-->
+        <div class="modal fade" id="buqueModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h1 class="modal-title fs-5"  style="color: var(--laranja);" id="exampleModalLabel">COLEIRA</h1>
+                  <h1 class="modal-title fs-5"  style="color: var(--verde);" id="exampleModalLabel">Buquês</h1>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  <img class="w-100" src="images/products/productImage.png" alt="">
+                  <img class="w-50" src="../imagenshome/imgcatalogo/buquecatalogo 1.jpg" alt="">
                   <h3 style="color: var(--verde);">R$100</h3>
                   <label for="Quantidade do produto"></label>
                   <input type="number" name="" id="quantidade">
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                  <button type="button" class="btn btn-success">Adicionar ao carrinho</button> <!--sucess é para o botao ficar verde-->
+                  <button type="button" class="btn btn-success">Adicionar ao carrinho</button> 
                 </div>
               </div>
             </div>
           </div>
-          <!--DISCO MODAL-->
-        <div class="modal fade" id="coleiraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> <!--troquei para coleiramodal para identificar q é da coleira-->
+          <!--arranjo MODAL-->
+        <div class="modal fade" id="arranjoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h1 class="modal-title fs-5"  style="color: var(--laranja);" id="exampleModalLabel">COLEIRA</h1>
+                  <h1 class="modal-title fs-5"  style="color: var(--verde);" id="exampleModalLabel">Arranjo</h1>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  <img class="w-100" src="images/products/productImage.png" alt="">
+                  <img class="w-50" src="../imagenshome/imgcatalogo/arranjocatalogo 1.jpg" alt="">
                   <h3 style="color: var(--verde);">R$100</h3>
                   <label for="Quantidade do produto"></label>
                   <input type="number" name="" id="quantidade">
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                  <button type="button" class="btn btn-success">Adicionar ao carrinho</button> <!--sucess é para o botao ficar verde-->
+                  <button type="button" class="btn btn-success">Adicionar ao carrinho</button> 
                 </div>
               </div>
             </div>
@@ -191,7 +190,7 @@
     
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        
         <script src="js/scrispt.js"></script>
     </body>
     </html>            

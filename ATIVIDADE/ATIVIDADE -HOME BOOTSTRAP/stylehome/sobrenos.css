@@ -20,33 +20,3 @@ header,footer{
 }
 
 
-.card, .card img{ /*aqui eu retiro as bordas arredondadas da imagem e da borda do card*/
-    border-radius: 0%;
-}
-
-.card{
-    padding: 1rem; /*ajuste do conteudo do card*/
-    border: var(--preto) 2px solid; /*espessura e cor da borda*/
-}
-
-.card button{
-    background-color: var(--rosa);
-    color: var(--preto);
-    border: none; /*sem borda*/
-    border-radius: 0%; /*tirar a borda do botão*/
-    
-}
-
-.card button:hover{ /*para qdo passar o mouse ele mudar de cor*/
-    background-color: #eb6fa5;
-}
-
-.card button:active{
-    background-color: var(--branco)!important;
-    color: var(--rosa)!important;
-
-}
-
-input{
-    border: 1px solid black !important;
-}
