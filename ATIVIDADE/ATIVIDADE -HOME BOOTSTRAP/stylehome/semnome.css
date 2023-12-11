@@ -1,0 +1,22 @@
+:root {
+    --azul: #6EB3D0;
+    --verde: #acd8aa;
+    --rosa: #f48498;
+    --laranja: #F4A623;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --rosaclaro: #f1dbdf;
+   
+
+
+
+
+}
+
+
+
+header,footer{
+    background-color: var(--verde);
+}
+
+
