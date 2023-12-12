@@ -19,4 +19,10 @@ header,footer{
     background-color: var(--verde);
 }
 
+main{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 380px;
+    align-items: center;
+}
 
