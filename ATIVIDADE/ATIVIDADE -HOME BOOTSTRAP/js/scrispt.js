@@ -1,10 +1,11 @@
 
 
- // var preco = $(".preco");
+  var cupom = $("#cupom");
 
-//$("#animacao1").on('click', function(){
-   // preco.animate({width : "500px", height : "500px", borderRadius : "100%"});
-//});
+  $("#animacao7").on('click', function(){
+    // caixa.fadeToggle(500);
+    cupom.slideToggle(1000);
+});
 
 
 

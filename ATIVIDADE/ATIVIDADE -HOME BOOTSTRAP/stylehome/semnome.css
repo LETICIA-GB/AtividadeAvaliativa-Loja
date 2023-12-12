@@ -22,7 +22,14 @@ header,footer{
 main{
     margin-left: 15%;
     margin-right: 15%;
-    padding: 380px;
+    padding: 300px;
     align-items: center;
+}
+
+#cupom{
+    width: 400px;
+    height: 400px;
+    background-color: var(--rosaclaro);
+    color: var(--preto);
 }
 
