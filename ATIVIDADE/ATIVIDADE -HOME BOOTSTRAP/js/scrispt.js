@@ -3,7 +3,7 @@
   var cupom = $("#cupom");
 
   $("#animacao7").on('click', function(){
-    // caixa.fadeToggle(500);
+   
     cupom.slideToggle(1000);
 });
 

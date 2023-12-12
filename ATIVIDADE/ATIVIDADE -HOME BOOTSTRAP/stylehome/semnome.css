@@ -27,8 +27,8 @@ main{
 }
 
 #cupom{
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 150px;
     background-color: var(--rosaclaro);
     color: var(--preto);
 }
